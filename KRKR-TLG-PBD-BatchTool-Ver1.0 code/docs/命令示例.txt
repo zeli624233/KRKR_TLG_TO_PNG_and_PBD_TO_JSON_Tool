@@ -1,0 +1,14 @@
+TLG 转 PNG：
+python -m krkr_batch_tool tlg2png "D:\input" -o "D:\out" -r -j 8 --overwrite
+
+PBD 转 JSON：
+python -m krkr_batch_tool pbd2json "D:\pbd" -o "D:\json" -r -j 4 --plugin-dir "D:\game\plugin"
+
+JSON 转 PBD：
+python -m krkr_batch_tool json2pbd "D:\json" -o "D:\pbd" -r -j 4 --overwrite
+
+扫描文件：
+python -m krkr_batch_tool scan "D:\game" --ext tlg --ext pbd -r
+
+自检：
+python -m krkr_batch_tool doctor

@@ -1,0 +1,7 @@
+PBD 文件解析配置目录。
+
+本软件已内置 PBDConverter.exe、PBDConverter.cf、data.xp3。
+第一次转换 PBD/JSON 时，请在软件里选择游戏的 plugin 文件夹；
+软件会自动复制 json.dll 和 PackinOne.dll 到这里。
+
+注意：json.dll 和 PackinOne.dll 属于游戏文件，本工具包不内置。
